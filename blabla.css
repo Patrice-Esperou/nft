@@ -1,0 +1,194 @@
+
+body, header {
+    background:#1c1f27;    
+   }
+p{
+    color: #d0edf0;
+}
+#container, #container3, #container4{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+#container2, #container3{
+    width: 80%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4rem;
+}
+#container5{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4rem;
+}
+.gallerie {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 205px;
+        height: 30px;	
+        font-size: 1.2em;	
+        text-align: center;	
+        border-radius: 17px;
+        background-color: #D0EDF0;
+        box-shadow:  -5px 5px 0px red, 
+                     5px -5px 0px red;
+    animation: point2 1s infinite;
+                 }
+    @keyframes point2 {
+     0% {
+       transform: scale(1); }
+     
+     100% {
+       transform: scale(1.1); }
+     }
+.blockfirefaucet1 p, .golden1 p, .lwos1 p{
+    font-size:1.2rem;
+}
+
+
+h2, h4, h5, h6, h7{ 
+    width:100%;
+    color: #fdc783;
+    font-family: 'Diplomata', cursive;
+}
+h2{
+    font-size:3.2rem;
+   
+}
+h3, h4{
+    color: #fdc783;
+    font-family: 'Diplomata', cursive;
+    font-size: 2.4rem;
+}
+h5{
+    color: #fdc783;
+    font-family: 'Diplomata', cursive;
+    font-size: 2.1rem;
+    text-align: center; 
+}
+h6, h7{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fdc783;
+    font-family: 'Diplomata', cursive;
+}
+.texte1, .texte2{
+    width: 700px;    
+    
+    font-size: 1.4rem;
+}
+
+.pub1, .pub2{ 
+    width:200px;
+    height: 200px;
+   
+}
+.blockpub{
+    margin-top: 60px;
+}
+.blocklwos, .blockgoldenfarm, .compteur, .link, .bnb, .btc{ 
+    width: 730px;
+}
+.blockgoldenfarm{
+    margin-top: 40px;
+}
+.blockfirefaucet{
+    width: 100%;
+}
+.blockfirefaucet1, .blockfirefaucet2, .compteur{ 
+    text-align: center;
+}
+/*
+@media all and (min-width: 915px) and (max-width: 1620px)
+{
+.texte2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}*/
+@media screen and (max-width: 1620px)
+{
+    .texte2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 1495px)
+{
+    .pub3 p{
+        
+        text-align: center;
+    }
+}
+#wrapper{
+	width:800px;
+	-webkit-perspective: 800;
+	-moz-perspective: 800;
+	perspective: 800 ;
+	margin: 150px auto 0 auto;
+    
+  } 
+  .carrousel{
+	width: 350px;
+	height: 350px;
+	margin: 0 auto;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-animation: Caroussel 10s infinite linear;
+	-moz-transform-style: preserve-3d;
+	animation: Caroussel 10s infinite linear;
+  } 
+  .plan{
+	position:absolute;
+	height: 200px;
+	width: 150px;
+	text-align:center;
+	font-size: 8em;
+	color:#FFF;
+	background-color: rgba(0, 0, 0, 0.7);
+  }  
+  @-webkit-keyframes Caroussel{
+	
+	from { transform: rotateY(0); }
+	to { transform: rotateY(-360deg); }
+  }  
+  @-moz-keyframes Caroussel{
+	
+	from { transform: rotateY(0); }
+	to { transform: rotateY(-360deg); }
+  }
+  .p1{ transform: translateZ(200px);}
+  .p2{ transform: rotateY(45deg) translateZ(200px);}
+  .p3{ transform: rotateY(90deg) translateZ(200px);}
+  .p4{ transform: rotateY(135deg) translateZ(200px);}
+  .p5{ transform: rotateY(180deg) translateZ(200px);}
+  .p6{ transform: rotateY(225deg) translateZ(200px);}
+  .p7{ transform: rotateY(270deg) translateZ(200px);}
+  .p8{ transform: rotateY(315deg) translateZ(200px);}
+  
+  .p1{ transform: translateZ(200px);}
+  .p2{ transform: rotateY(45deg) translateZ(200px);}
+  .p3{ transform: rotateY(90deg) translateZ(200px);}
+  .p4{ transform: rotateY(135deg) translateZ(200px);}
+  .p5{ transform: rotateY(180deg) translateZ(200px);}
+  .p6{ transform: rotateY(225deg) translateZ(200px);}
+  .p7{ transform: rotateY(270deg) translateZ(200px);}
+  .p8{ transform: rotateY(315deg) translateZ(200px);}
+  footer{	
+	bottom: 0;
+	position: sticky;
+	background-color: #FFA07A;
+	
+	max-width: 100%;
+	
+	text-align: center;
+       }
+    footer p{
+        font-size: 30px;
+        color:#1c1f27
+    }
+    
